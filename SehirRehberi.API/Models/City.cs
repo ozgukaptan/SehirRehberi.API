@@ -21,6 +21,6 @@ namespace SehirRehberi.API.Models
 
         public User User2 { get; set; }
         
-        sfsdfsdfsdf
+        
     }
 }
