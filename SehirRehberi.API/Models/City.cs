@@ -19,7 +19,7 @@ namespace SehirRehberi.API.Models
         public List<Photo> Photos { get; set; }
         public User User { get; set; }
 
-        public User User2 { get; set; }
+        
         
         
         dfgfgd
