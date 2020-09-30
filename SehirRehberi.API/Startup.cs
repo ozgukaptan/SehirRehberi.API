@@ -62,7 +62,7 @@ namespace SehirRehberi.API
             {
                 endpoints.MapControllers();
             });
-            app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin().AllowCredentials() );
+            app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin().AllowCredentials());
             app.UseAuthentication();
         }
     }
